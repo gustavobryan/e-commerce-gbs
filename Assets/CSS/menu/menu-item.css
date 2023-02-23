@@ -1,0 +1,10 @@
+.menu-item .menu-link {
+    font-family: sans-serif;
+    text-align: center;
+    margin-left: 3vh;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    opacity: 70%;
+}
