@@ -1,0 +1,20 @@
+.rodape {
+    display: flex;
+    background-color: black;
+    height: 22vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-footer {
+    font-size: 3vh;
+    text-align: left;
+    color: white;
+}
+
+.logo-rodape {
+    width: 20vh ;
+    height: 20vh;
+    order: -1;
+}
