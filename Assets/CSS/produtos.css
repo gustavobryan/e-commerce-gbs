@@ -1,0 +1,61 @@
+h2 {
+  font-size: 3em;
+  font-weight: 600;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#acessorios {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+h3 {
+  font-size: 1.4em;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-align: left;
+  text-transform: uppercase;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.scroller {
+  display: flex;
+  text-align: left;
+  width: 1000px;
+  height: 400px;
+  overflow-x: scroll;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  scroll-snap-type: x mandatory;
+  padding: 10px;
+  background-color: white;
+  border: none;
+}
+
+.img-produto {
+  width: 250px;
+  height: 300px;
+}
+
+.img-produto:hover {
+  opacity: 60%;
+}
+
+h4,
+p {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1%;
+}
+
+.prod {
+  padding: 0 45px 0 55px;
+  box-shadow: 1px 1px 1px 1px #00000018;
+}
