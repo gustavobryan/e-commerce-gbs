@@ -8,8 +8,10 @@
 }
 
 .text-footer {
-    font-size: 3vh;
-    text-align: left;
+    display: flex;
+    font-size: 1.4em;
+    text-align: right;
+    margin-right: 400px;
     color: white;
 }
 
@@ -17,4 +19,6 @@
     width: 20vh ;
     height: 20vh;
     order: -1;
+    display: flex;
+    margin-left: 250px;
 }
