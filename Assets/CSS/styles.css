@@ -7,3 +7,12 @@ main {
     display: block;
     height: 75vh;
 }
+
+#banner {
+    width: 100%;
+    height: 50vh;
+}
+
+#banner:hover {
+    opacity: 50%;
+}
