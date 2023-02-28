@@ -1,8 +1,13 @@
 Projeto de um site de e-commerce utilizando HTML, CSS, Flexbox, JavaScript.
 
 🚀 Começando
+
+
 📋 Pré-requisitos
--Dispositivo com acesso a internet; -Um navegador Web;
+
+-Dispositivo com acesso a internet; 
+
+-Um navegador Web;
 
 (Dê preferência para utilizar em computador ou dispositivos de tela grande.)
 
