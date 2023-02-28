@@ -1,14 +1,25 @@
-//const prods = document.getElementById("eletronicos, acessorios, roupas, livros");
-//const prod = querySelectorAll("eletronicos, acessorios, roupas, livros, #prod");
+const nome = getElementById("nomeId");
+const email = getElementById("emailId");
+const fone = getElementById("foneId");
 
-//let idx = 0;
+form.addEventListener("submit", (e) => {
+  e.preventDefault();
+});
 
-/*function carrossel() {
-    if (id > prod.length -1 ){
-        idx = 0;
-    }
+function checkInputs() {
+  const nomeValue = nome.value;
+  const emailValue = email.value;
+  const foneValue = fone.value;
 
-    prod.style.transform = `translateX(${-idx * 350}px)`;
-}*/
+  if (nomeValue === "") {
+    setErrorFor(nome, "O nome de usuário é obrigatorio.");
+  } else setSuccessFor(nome);
 
-//setInterval(carrossel, 1000);
+  if (emailValue === "") {
+    setErrorFor(email, "O email é obrigatorio.");
+  } else setSuccessFor(email);
+
+  if (foneValue === '') {
+    setErrorFor(fone, "O número de telefone é obrigatorio.");
+} else setSuccessFor(telefone);
+}
