@@ -9,9 +9,8 @@
     <link rel="stylesheet" href="assets/css/menu/menu-item.css" />
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css" />
     <link rel="stylesheet" href="/assets/css/menu/menu-link.css" />
-    <link rel="stylesheet" href="/assets/css/styles.css" />
     <link rel="stylesheet" href="/assets/css/footer.css" />
-    <link rel="stylesheet" href="/assets/css/produtos.css" />
+    <link rel="stylesheet" href="/assets/css/contato.css">
     <link
       rel="shortcut icon"
       href="/assets/img/favicon.png"
@@ -35,7 +34,26 @@
         </header>
         <main>
           <img id="banner" src="https://ferramentasblog.com/wordpress/wp-content/uploads/2011/02/contato-icones.png" alt="foto de contatos" />
+        
+          <section class="container">
+               
+            <h1>Fale conosco:</h1>
 
+                <input type="text" id="nomeId" placeholder="Jordana Kohls" required="required" name="nome"/>
+                <label for="nome">Nome</label>
+
+                <input type="tel" id="foneId" placeholder="(xx)x-xxxx-xxxx" name="fone"/>
+                <label for="fone">Telefone</label>
+
+                <input type="email" id="emailId" placeholder="jordana@kohls.com" name="email"/>
+                <label for="email">Email</label>
+
+                <textarea placeholder="Deixe sua opinião"></textarea>
+            
+                <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+            </section>
+        
+        </main>
     <footer class="rodape">
       <p class="text-footer">&copy;copyright Gustavo Bryan</p>
       <img
