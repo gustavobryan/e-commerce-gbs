@@ -45,6 +45,14 @@ h3 {
   height: 500px;
 }
 
+.sobre {
+    font-size: 12px;
+    border: 1px solid grey;
+    margin: 10px;
+    background-color: lightgray;
+    padding: 4px;
+}
+
 #roupas {
   padding-bottom: 20px;
 }
@@ -55,7 +63,9 @@ h3 {
 }
 
 .img-produto:hover {
-  opacity: 60%;
+  opacity: 70%;
+  zoom: 120%;
+  transition: 1.5s;
 }
 
 h4,
@@ -72,3 +82,7 @@ p {
   border-radius: 10px;
   margin-top: 10px;
 }
+
+/*.prod:hover {
+  zoom: 120%;
+} 
