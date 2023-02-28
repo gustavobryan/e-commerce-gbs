@@ -16,7 +16,12 @@ Projeto de um site de e-commerce utilizando HTML, CSS, Flexbox, JavaScript.
 
 -Para fazer login digite os dados corretamente, então será mandado de volta para a página Home.
 
-## ⌨️Imagens do projeto
+## 📌 Versão
+1.0
+
+## 🎁 Expressões de gratidão
+
+* Agradeço a todos que me ajudaram tirando dúvidas ou dando sugestões! 🍺;
 
 ![imagem cabeçalho](/assets/img/img1.jpeg)
 ![sessão produtos](/assets/img/img2.jpeg)
@@ -26,12 +31,4 @@ Projeto de um site de e-commerce utilizando HTML, CSS, Flexbox, JavaScript.
 ![form login](/assets/img/img6.jpeg)
 
 
-
-
-## 📌 Versão
-1.0
-
-## 🎁 Expressões de gratidão
-
-
-* Agradeço a todos que me ajudaram tirando dúvidas ou dando sugestões! 🍺;
+O projeto pode ser acessado clicando [aqui](https://ecommerce-gbs.netlify.app/)
