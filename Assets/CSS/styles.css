@@ -1,17 +1,16 @@
 body {
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     box-sizing: border-box;
 }
 
 main {
-    display: block;
     width: 100%;
     height: 100%;
 }
 
 #banner {
     width: 100%;
-    height: 50vh;
+    height: 70vh;
 }
 
 #banner:hover {
